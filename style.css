@@ -1,0 +1,242 @@
+/*RESET STYLESHEET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  min-height: 100vh;
+}
+body {
+  width: 100%;
+  overflow-x: hidden; /*remove horizontal scrollbar*/
+  text-align: center;
+}
+/*TYPOGRAPHY*/
+h1,
+h2,
+h3 {
+  font-family: "Montserrat-black", sans-serif;
+  font-weight: bold;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.h1-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 2.5rem;
+}
+.h2-testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 300;
+  margin: 2rem auto;
+  width: 80%;
+}
+.h3-title-features {
+  font-size: 1.8rem;
+}
+.h3-cta-title {
+  padding: 8rem 1rem 1rem 1rem;
+  font-size: 3rem;
+  color: #fff;
+}
+.p-features {
+  color: #8f8f8f;
+}
+
+.logo {
+  font-size: 2.5rem;
+}
+
+.copyright {
+  margin-top: 1.5rem;
+}
+
+/*LINKS*/
+
+a {
+  font-family: "Ubuntu", sans-serif;
+  color: black;
+}
+.nav-link {
+  margin-right: 2.5rem;
+  font-size: 1.4rem;
+}
+.marg-right {
+  margin-right: 10rem;
+}
+
+/*STYLING*/
+
+.container-fluid {
+  padding: 3% 15%;
+}
+.text-center {
+  margin-bottom: 3rem;
+}
+.title-p-pricing,
+.col-lg-6 {
+  margin-top: 5rem;
+}
+
+/*ICONS*/
+
+.fa-google-play {
+  padding-right: 0.3rem;
+}
+.circle,
+.bullseye,
+.heart {
+  color: #ef8172;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+}
+.circle:hover,
+.bullseye:hover,
+.heart:hover,
+.icons-footer:hover,
+.link-ct:hover {
+  color: #ff4c68;
+}
+.icons-footer {
+  margin-right: 1rem;
+}
+
+/*IMAGES*/
+
+.phone {
+  transform: rotateZ(25deg);
+  width: 20%;
+  z-index: 1;
+  position: absolute;
+  right: 30%;
+}
+.testimonial-img {
+  width: 5%;
+  border-radius: 50%;
+  margin: 1rem;
+}
+.logo-testimonial {
+  margin-right: 2.5rem;
+  width: 10%;
+}
+.link-ct {
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+
+/*SECTIONS*/
+
+#title {
+  text-align: left;
+}
+#features {
+  padding: 10% 15%;
+  position: relative;
+  z-index: 2;
+}
+#testimonials {
+  padding: 5rem;
+  color: #fff;
+}
+#press {
+  padding: 2rem 0;
+}
+#cta {
+}
+#footer {
+  margin: 4rem;
+}
+/*background-colors in sections*/
+.white-section {
+  background-color: #fff;
+}
+.colored-section-orange {
+  background-color: #ef8172;
+}
+.colored-section-pink {
+  background-color: #ff4c68;
+}
+
+/*BUTTONS*/
+
+.download {
+  margin: 2rem 1rem;
+}
+.download2 {
+  margin-bottom: 7rem;
+}
+
+/*carousel*/
+
+.carousel-indicators {
+  margin-bottom: -3rem !important;
+}
+
+/*CARDS*/
+
+.card-body,
+.card-header {
+  padding: 0;
+}
+.card-group {
+  margin: 0 auto;
+  width: 70%;
+}
+.prices {
+  font-size: 2rem;
+  font-weight: 900;
+  padding-bottom: 1.5rem;
+}
+.signup {
+  margin-top: 2rem;
+}
+.subtitle-prices {
+  color: #8f8f8f;
+}
+
+/*********
+MEDIA QUERIES
+************/
+@media screen and (max-width: 1450px) {
+  .phone {
+    transform: none;
+  }
+}
+@media screen and (max-width: 990px) {
+  #features {
+    position: static;
+    z-index: 0;
+  }
+  .phone {
+    position: static;
+  }
+  .container-fluid {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 992px) {
+  .phone {
+    width: 60%;
+  }
+  .marg-right {
+    margin-right: 2rem;
+  }
+}
+@media screen and (min-width: 991px) and (max-width: 1130px) {
+  .phone {
+    width: 25%;
+    right: 20%;
+  }
+  .download {
+    margin: 0;
+    margin-right: 1rem;
+  }
+}
